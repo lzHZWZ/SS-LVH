@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41a12bbd-ae10-4a93-9a15-f6bb890cc195" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/SS-LVH.iml" afterPath="$PROJECT_DIR$/.idea/SS-LVH.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/analysis.py" afterPath="$PROJECT_DIR$/analysis.py" />
+      <change beforePath="$PROJECT_DIR$/cauchy_hash.py" afterPath="$PROJECT_DIR$/cauchy_hash.py" />
+      <change beforePath="$PROJECT_DIR$/coco.py" afterPath="$PROJECT_DIR$/coco.py" />
+      <change beforePath="$PROJECT_DIR$/engine.py" afterPath="$PROJECT_DIR$/engine.py" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/ImageNetLabels.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000004428.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000004428_feature_map.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000004428_probability.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000037015.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000037015_feature_map.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000037015_probability.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000057870.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000057870_feature_map.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000057870_probability.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000161919.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000161919_feature_map.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000161919_probability.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000219025.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000219025_feature_map.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000219025_probability.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000344806.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000344806_feature_map.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000344806_probability.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000365363.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000365363_feature_map.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000365363_probability.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000384029.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000384029_feature_map.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000384029_probability.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000392136.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000392136_feature_map.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000392136_probability.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000405207.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000405207_feature_map.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000405207_probability.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000547471.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000547471_feature_map.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/feature map/COCO_train2014_000000547471_probability.pkl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feature_map_kmeans_v2/main.py" afterPath="$PROJECT_DIR$/feature_map_kmeans_v2/main.py" />
+      <change beforePath="$PROJECT_DIR$/imagenet_relevance/ImageNetLabels.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/inter_mean.py" afterPath="$PROJECT_DIR$/inter_mean.py" />
+      <change beforePath="$PROJECT_DIR$/models.py" afterPath="$PROJECT_DIR$/models.py" />
+      <change beforePath="$PROJECT_DIR$/noise_generation.py" afterPath="$PROJECT_DIR$/noise_generation.py" />
+      <change beforePath="$PROJECT_DIR$/nuswide.py" afterPath="$PROJECT_DIR$/nuswide.py" />
+      <change beforePath="$PROJECT_DIR$/post_process.py" afterPath="$PROJECT_DIR$/post_process.py" />
+      <change beforePath="$PROJECT_DIR$/post_process_newedition.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ssdgcn_coco.py" afterPath="$PROJECT_DIR$/ssdgcn_coco.py" />
+      <change beforePath="$PROJECT_DIR$/ssdgcn_engine.py" afterPath="$PROJECT_DIR$/ssdgcn_engine.py" />
+      <change beforePath="$PROJECT_DIR$/ssdgcn_voc2007.py" afterPath="$PROJECT_DIR$/ssdgcn_voc2007.py" />
+      <change beforePath="$PROJECT_DIR$/study_pretrain.py" afterPath="$PROJECT_DIR$/study_pretrain.py" />
+      <change beforePath="$PROJECT_DIR$/util.py" afterPath="$PROJECT_DIR$/util.py" />
+      <change beforePath="$PROJECT_DIR$/voc.py" afterPath="$PROJECT_DIR$/voc.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SS_LVH$save_npy.coverage" NAME="save_npy Coverage Results" MODIFIED="1646965245952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imagenet_labels" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="noise_generation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/noise_generation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="249" column="35" lean-forward="true" selection-start-line="249" selection-start-column="35" selection-end-line="249" selection-end-column="35" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KMeans.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_map_kmeans_v2/KMeans.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="77" column="13" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_map_kmeans_v2/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_map_kmeans_v2/parameter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result_proceess_oldversion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_map_kmeans_v2/result_proceess_oldversion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="91" column="15" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result_process.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/feature_map_kmeans_v2/result_process.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>imagenet_all_labels.txt</find>
+      <find>MyDebug</find>
+      <find>imagenet_reverse_coarse_labels</find>
+      <find>imagenet_coarse_labels</find>
+      <find>zh_en_dict</find>
+      <find>#</find>
+      <find>imagenet_labels</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/imagenet_relevance/label_process.py" />
+        <option value="$PROJECT_DIR$/imagenet_relevance/ImageNetLabels.py" />
+        <option value="$PROJECT_DIR$/feature_map_kmeans_v2/result_proceess_oldversion.py" />
+        <option value="$PROJECT_DIR$/feature_map_kmeans_v2/ImageNetLabels.py" />
+        <option value="$PROJECT_DIR$/feature_map_kmeans_v2/KMeans.py" />
+        <option value="$PROJECT_DIR$/feature_map_kmeans_v2/result_process.py" />
+        <option value="$PROJECT_DIR$/feature_map_kmeans_v2/parameter.py" />
+        <option value="$PROJECT_DIR$/models_lib/model_gcn.py" />
+        <option value="$PROJECT_DIR$/models_lib/model_sdne.py" />
+        <option value="$PROJECT_DIR$/inceptionv4.py" />
+        <option value="$PROJECT_DIR$/pipeline.py" />
+        <option value="$PROJECT_DIR$/my_clusters.py" />
+        <option value="$PROJECT_DIR$/mirflickr25k.py" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/post_process.py" />
+        <option value="$PROJECT_DIR$/nuswide.py" />
+        <option value="$PROJECT_DIR$/study_pretrain.py" />
+        <option value="$PROJECT_DIR$/ssdgcn_voc2007.py" />
+        <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/post_process_newedition.py" />
+        <option value="$PROJECT_DIR$/cauchy_hash.py" />
+        <option value="$PROJECT_DIR$/analysis.py" />
+        <option value="$PROJECT_DIR$/coco.py" />
+        <option value="$PROJECT_DIR$/ssdgcn_coco.py" />
+        <option value="$PROJECT_DIR$/voc.py" />
+        <option value="$PROJECT_DIR$/engine.py" />
+        <option value="$PROJECT_DIR$/ssdgcn_engine.py" />
+        <option value="$PROJECT_DIR$/inter_mean.py" />
+        <option value="$PROJECT_DIR$/imagenet_labels/ImageNetLabels.py" />
+        <option value="$PROJECT_DIR$/imagenet_labels/save_npy.py" />
+        <option value="$PROJECT_DIR$/feature_map_kmeans_v2/main.py" />
+        <option value="$PROJECT_DIR$/noise_generation.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="928" />
+    <option name="width" value="1366" />
+    <option name="height" value="740" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SS-LVH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SS-LVH" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SS-LVH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SS-LVH" type="462c0819:PsiDirectoryNode" />
+              <item name="checkpoint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SS-LVH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SS-LVH" type="462c0819:PsiDirectoryNode" />
+              <item name="feature_map_kmeans_v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SS-LVH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SS-LVH" type="462c0819:PsiDirectoryNode" />
+              <item name="imagenet_labels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SS-LVH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SS-LVH" type="462c0819:PsiDirectoryNode" />
+              <item name="models_lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="configurable.stylesheets.stylelint" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/imagenet_relevance" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="save_npy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imagenet_labels" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SS-LVH" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imagenet_labels/save_npy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.save_npy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41a12bbd-ae10-4a93-9a15-f6bb890cc195" name="Default" comment="" />
+      <created>1646923791449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646923791449</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="928" width="1366" height="740" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29393938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/imagenet_labels/ImageNetLabels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet_labels/save_npy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23749">
+          <caret line="1397" column="11" lean-forward="false" selection-start-line="1397" selection-start-column="11" selection-end-line="1397" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet_relevance/imagenet_all_labels.txt" />
+    <entry file="file://$PROJECT_DIR$/imagenet_relevance/label_process.py" />
+    <entry file="file://$PROJECT_DIR$/models_lib/model_sdne.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inceptionv4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="282" column="27" lean-forward="false" selection-start-line="282" selection-start-column="27" selection-end-line="282" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="135" column="60" lean-forward="true" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models_lib/model_gcn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_clusters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirflickr25k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="174" column="60" lean-forward="true" selection-start-line="174" selection-start-column="60" selection-end-line="174" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuswide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="256" column="58" lean-forward="false" selection-start-line="256" selection-start-column="58" selection-end-line="256" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_pretrain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="1019" column="0" lean-forward="false" selection-start-line="1019" selection-start-column="0" selection-end-line="1019" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssdgcn_voc2007.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="150" column="4" lean-forward="false" selection-start-line="150" selection-start-column="4" selection-end-line="150" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="195" column="8" lean-forward="false" selection-start-line="195" selection-start-column="8" selection-end-line="195" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post_process_newedition.py" />
+    <entry file="file://$PROJECT_DIR$/cauchy_hash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="82" column="8" lean-forward="false" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coco.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="130" column="41" lean-forward="false" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssdgcn_coco.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssdgcn_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inter_mean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="364" column="111" lean-forward="false" selection-start-line="364" selection-start-column="111" selection-end-line="364" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_map_kmeans_v2/ImageNetLabels.py" />
+    <entry file="file://$PROJECT_DIR$/imagenet_labels/save_npy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="1388" column="31" lean-forward="true" selection-start-line="1388" selection-start-column="31" selection-end-line="1388" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet_labels/ImageNetLabels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="1282" column="37" lean-forward="true" selection-start-line="1282" selection-start-column="37" selection-end-line="1282" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noise_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="249" column="35" lean-forward="true" selection-start-line="249" selection-start-column="35" selection-end-line="249" selection-end-column="35" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_map_kmeans_v2/KMeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="77" column="13" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_map_kmeans_v2/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_map_kmeans_v2/parameter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_map_kmeans_v2/result_proceess_oldversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="91" column="15" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_map_kmeans_v2/result_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
