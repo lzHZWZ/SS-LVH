@@ -5,6 +5,8 @@ import numpy as np
 import sys, os, pickle
 
 
+
+## wirte
 def write2pkl( content, pkl_path):
 	'''write content into .pkl file with bin format'''
 	with open(str(pkl_path), 'ab') as fi:
